@@ -1,0 +1,25 @@
+{
+  "name": "Rick Sanchez",
+  "age": 70,
+  "cars": ["Ford", "BMW", "Fiat"],
+  "family_member": {
+    "daughter": "Beth",
+    "son_in_law": "Jerry Smith",
+    "grand_son": "Morty",
+    "grand_daughter": "Summer"
+  },
+  "awards_list": [
+    {
+      "year": "2014",
+      "name": "BTVA Voice Acting Awards"
+    },
+    {
+      "year": "2015",
+      "name": "IGN Awards"
+    },
+    {
+      "year": "2017",
+      "name": "Golden Reel Awards"
+    }
+  ]
+}
