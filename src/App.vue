@@ -6,7 +6,7 @@
 
 <script>
 import Table2 from "./components/Table2.vue";
-import * as data2 from "@/config/data2.json";
+import * as data2 from "@/config/data.json";
 
 export default {
   components: {
