@@ -20,6 +20,37 @@
     {
       "year": "2017",
       "name": "Golden Reel Awards"
+    },
+    "OSCAR",
+    {
+      "test": [
+        {
+          "nominee": "Rick and Morty",
+          "result": "WON"
+        },
+        {
+          "nominee": "The Ricklantis Mixup",
+          "result": "LOST"
+        },
+        {
+          "nominee": "Justin Roiland",
+          "result": "WON"
+        }
+      ]
     }
-  ]
+  ],
+  "aws-cloudtrail": {
+    "Trails": ["Node1", "Node2", "Node3"],
+    "ResponseMetadata": {
+      "RequestId": "c6c68ace-1bf2-4dd6-8a01-261503082583",
+      "HTTPHeaders": {
+        "content-length": "13",
+        "date": "Thu, 13 Feb 2020 09:44:55 GMT",
+        "x-amzn-requestid": "c6c68ace-1bf2-4dd6-8a01-261503082583",
+        "content-type": "application/x-amz-json-1.1"
+      },
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0
+    }
+  }
 }

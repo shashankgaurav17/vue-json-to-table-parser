@@ -1,18 +1,4 @@
 {
-  "aws-cloudtrail": {
-    "Trails": ["Node1", "Node2", "Node3"],
-    "ResponseMetadata": {
-      "RequestId": "c6c68ace-1bf2-4dd6-8a01-261503082583",
-      "HTTPHeaders": {
-        "content-length": "13",
-        "date": "Thu, 13 Feb 2020 09:44:55 GMT",
-        "x-amzn-requestid": "c6c68ace-1bf2-4dd6-8a01-261503082583",
-        "content-type": "application/x-amz-json-1.1"
-      },
-      "HTTPStatusCode": 200,
-      "RetryAttempts": 0
-    }
-  },
   "unique_id": "5a632db3-18cd-4565-984b-315347192107",
   "created": "2020-02-12T09:46:55.861929Z",
   "modified": "2020-02-13T09:44:52.227140Z",
@@ -104,67 +90,5 @@
   "cron_expression": null,
   "output_params": {},
   "is_runnable": true,
-  "description": null,
-  "playbook_data": {
-    "unique_id": "5a632db3-18cd-4565-984b-315347192107",
-    "title": "AWS Cloud Trail Test",
-    "type": "UI"
-  },
-  "nodes_results": [
-    {
-      "unique_id": "975c1fb5-3c2e-4a14-92cc-00768fda2833",
-      "created": "2020-02-13T09:44:55.484821Z",
-      "modified": "2020-02-13T09:44:55.498362Z",
-      "status": "SUCCESS",
-      "node_data": {
-        "type": "START",
-        "internal_id": "start",
-        "title": "Start",
-        "unique_id": "a010b28a-807d-4fc6-9a56-d85115999427",
-        "io_params_format": {}
-      },
-      "result": {},
-      "initial_params": {},
-      "error": {},
-      "io_params": {}
-    },
-    {
-      "unique_id": "bd3b3916-ae5d-4d68-86e2-d5754836e128",
-      "created": "2020-02-13T09:44:55.514338Z",
-      "modified": "2020-02-13T09:44:56.500363Z",
-      "status": "SUCCESS",
-      "node_data": {
-        "type": "REGULAR",
-        "internal_id": "1",
-        "title": "AWS Cloudtrail",
-        "unique_id": "a71d4571-ecfe-4031-bcf5-43278b8178b1",
-        "io_params_format": {}
-      },
-      "result": {
-        "aws-cloudtrail": {
-          "Trails": [],
-          "ResponseMetadata": {
-            "RequestId": "c6c68ace-1bf2-4dd6-8a01-261503082583",
-            "HTTPHeaders": {
-              "content-length": "13",
-              "date": "Thu, 13 Feb 2020 09:44:55 GMT",
-              "x-amzn-requestid": "c6c68ace-1bf2-4dd6-8a01-261503082583",
-              "content-type": "application/x-amz-json-1.1"
-            },
-            "HTTPStatusCode": 200,
-            "RetryAttempts": 0
-          }
-        }
-      },
-      "initial_params": [{}],
-      "error": {},
-      "io_params": {}
-    }
-  ],
-  "event_data": null,
-  "error": {},
-  "ran_by_data": { "first_name": "Kaushal", "last_name": "Parikh" },
-  "source_playbook_result_data": null,
-  "run_details": "Kaushal",
-  "source": "User"
+  "description": null
 }
