@@ -18,24 +18,24 @@
             {{ arrRow }}
           </div>
           <div v-else>
-            <Table2 :data="arrRow" />
+            <VueJsonToTable :data="arrRow" />
           </div>
         </div>
       </div>
       <div v-else>
-        <Table2 :data="data[row]" />
+        <VueJsonToTable :data="data[row]" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Table2 from "@/components/Table2.vue";
+import VueJsonToTable from "./VueJsonToTable";
 
 export default {
-  name: "Table2",
+  name: "VueJsonToTable",
   components: {
-    Table2
+    VueJsonToTable
   },
   props: {
     data: {
@@ -62,6 +62,30 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.m-2 {
+  margin: .5rem!important;
+}
+
+.mx-2 {
+  margin-right: .5rem!important;
+}
+
+.p-2 {
+  padding: .5rem!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+.d-inline-block {
+  display: inline-block!important;
+}
+
+.text-capitalize {
+  text-transform: capitalize!important;
+}
+
 .key {
   background: lightgray;
 }
