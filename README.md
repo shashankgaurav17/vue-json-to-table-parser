@@ -26,7 +26,7 @@ Add the following in that component where you want to use
 ```
 
 <p align="center">
-  <img src="https://github.com/shashankgaurav17/vue-json-to-table-parser/raw/master/static/component.png" width="300">
+  <img src="https://github.com/shashankgaurav17/vue-json-to-table-parser/raw/master/static/component.png" width="600">
 </p>
 <br>
 
