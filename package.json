@@ -1,6 +1,6 @@
 {
   "name": "vue-json-to-table",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A Vue component that renders JSON data in Table structure.",
   "main": "./dist/index.js",
   "scripts": {
