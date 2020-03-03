@@ -25,4 +25,58 @@ Add the following in that component where you want to use
 <vue-json-to-table :data="jsonDataArr"></vue-json-to-table>
 ```
 
+<p align="center">
+  <img src="https://github.com/shashankgaurav17/vue-json-to-table-parser/raw/master/static/component.png" width="300">
+</p>
+<br>
+
+Sample JSON Data
+
+```
+
+{
+  "show": "Rick and Morty",
+  "name": "Rick Sanchez",
+  "associates_of_rick": ["Mr. Poopybutthole", "Scary Terry", "Mr. Meeseeks", "Noob Noob"],
+  "best_friend": "Birdperson",
+  "family_member": {
+    "daughter": "Beth",
+    "son_in_law": "Jerry Smith",
+    "grand_son": "Morty",
+    "grand_daughter": "Summer"
+  },
+  "awards_list": [
+    {
+      "year": "2014",
+      "name": "BTVA Voice Acting Awards"
+    },
+    {
+      "year": "2015",
+      "name": "IGN Awards"
+    },
+    {
+      "year": "2017",
+      "name": "Golden Reel Awards"
+    },
+    {
+      "2017": [
+        {
+          "category": "TV Series of the Year",
+          "result": "WON"
+        },
+        {
+          "category": "Best TV Episode",
+          "result": "LOST"
+        },
+        {
+          "category": "Best Comedic TV Performance",
+          "result": "WON"
+        }
+      ]
+    }
+  ]
+}
+
+```
+
 
