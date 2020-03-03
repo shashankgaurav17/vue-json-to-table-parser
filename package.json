@@ -1,11 +1,10 @@
 {
   "name": "vue-json-to-table",
   "version": "1.0.6",
-  "description": "Vue JSON To Table Parser updated",
+  "description": "A Vue component that renders JSON data in Table structure.",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "vue serve VueJsonToTable.vue",
-    "build": "bili --name index --plugin vue --vue.css false"
+    "dev": "vue serve VueJsonToTable.vue"
   },
   "files": [
     "dist/*"
